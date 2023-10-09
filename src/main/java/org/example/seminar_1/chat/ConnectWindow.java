@@ -1,11 +1,7 @@
-package org.example.Seminar_1.chat;
+package org.example.seminar_1.chat;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class ConnectWindow  extends JFrame{
     static private final int WINDOW_HEIGHT = 640;

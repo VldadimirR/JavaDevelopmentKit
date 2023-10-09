@@ -1,4 +1,4 @@
-package org.example.Seminar_1.chat;
+package org.example.seminar_1.chat;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +12,7 @@ public class ChatWindow extends JFrame {
     static private final int WINDOW_POS_X = 300;
     static private final int WINDOW_POS_Y = 100;
     static private final String WINDOW_NAME = "Чат с сервером";
-    private final String LOG_PATH="src/main/java/org/example/Seminar_1/chat/log.txt";
+    private final String LOG_PATH="C:\\Users\\rasal\\Программирование\\Java Development Kit\\JDK\\src\\main\\java\\org\\example\\Seminar_1\\chat\\log.txt";
     static private JTextArea textOutputLog;
     JTextArea textOutput = new JTextArea("");
     JLabel label = new JLabel("Введите сообщение серверу: ");
