@@ -42,7 +42,7 @@ public class ThreadPhilosophers {
             for (int i = 0; i < 3; i++) {
                 try {
                     System.out.println("Философ 2 размышляет");
-                    Thread.sleep(600);
+                    Thread.sleep(500);
 
                     maxDiners.acquire();
                     flag[philosopherNumber - 1].acquire();
@@ -50,7 +50,7 @@ public class ThreadPhilosophers {
 
 
                     System.out.println("Философ 2 обедает");
-                    Thread.sleep(500);
+                    Thread.sleep(600);
 
                     flag[philosopherNumber - 1].release();
                     flag[philosopherNumber % NUM_PHILOSOPHERS].release();
